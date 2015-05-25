@@ -636,6 +636,17 @@ strong,
 	margin-bottom: 10px;
 }
 
+.single-service .btn-primary {
+	max-width: 220px;
+	padding: 15px 30px 15px 30px;
+	background: white;
+	box-shadow: none;
+	border-style: solid;
+	border-width: 2px;
+    border-color: black;
+    color: black;
+}
+
 /*---------------------------------------
    3.4 SECTION: APP BRIEF    
 -----------------------------------------*/
