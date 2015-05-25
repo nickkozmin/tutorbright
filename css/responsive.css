@@ -346,7 +346,9 @@
 	}
 
 	.standard-button {
-		padding: 15px 35px 15px 35px;
+		padding: 10px 30px 10px 30px;
+		margin-top: 20px;
+		width: 240px;
 	}
 
 	.timeline-section {
