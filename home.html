@@ -145,8 +145,8 @@
                             
                             <!-- BUTTON -->
                             <div class="button">
-                                <a href="https://gjrevans.typeform.com/to/A2QJgM" class="btn btn-primary standard-button">Register</a>
-                                <a href="https://gjrevans.typeform.com/to/lGH5ob" class="btn btn-primary standard-button">Book Now</a>
+                                <a href="https://gjrevans.typeform.com/to/A2QJgM" data-mode="1" target="_blank" class="btn btn-primary typeform-share standard-button">Book Now</a>
+                                <a href="https://gjrevans.typeform.com/to/lGH5ob" data-mode="1" target="_blank" class="btn btn-primary typeform-share standard-button">Register</a>
                             </div>
                             <!-- /END BUTTON -->
                             
@@ -302,8 +302,8 @@
                     
                         <!-- BUTTON -->
                         <div class="button">
-                            <a href="https://gjrevans.typeform.com/to/A2QJgM" class="btn btn-primary standard-button">Register</a>
-                            <a href="https://gjrevans.typeform.com/to/lGH5ob" class="btn btn-primary standard-button">Book Now</a>
+                            <a href="https://gjrevans.typeform.com/to/A2QJgM" data-mode="1" target="_blank" class="btn btn-primary typeform-share standard-button">Book Now</a>
+                            <a href="https://gjrevans.typeform.com/to/lGH5ob" data-mode="1" target="_blank" class="btn btn-primary typeform-share standard-button">Register</a>
                         </div>
                         
                     </div>
@@ -466,8 +466,8 @@
                     
                         <!-- BUTTON -->
                         <div class="button">
-                            <a href="https://gjrevans.typeform.com/to/A2QJgM" class="btn btn-primary standard-button">Register</a>
-                            <a href="https://gjrevans.typeform.com/to/lGH5ob" class="btn btn-primary standard-button">Book Now</a>
+                            <a href="https://gjrevans.typeform.com/to/A2QJgM" data-mode="1" target="_blank" class="btn btn-primary typeform-share standard-button">Book Now</a>
+                            <a href="https://gjrevans.typeform.com/to/lGH5ob" data-mode="1" target="_blank" class="btn btn-primary typeform-share standard-button">Register</a>
                         </div>
                     </div>
                 
@@ -539,7 +539,7 @@
         </div>
     </div>
     <!-- =========================
-     GOOGEL MAP 
+     FOOTER
     ============================== -->
     <!-- FOOTER -->
     <footer class="footer grey-bg">
@@ -567,8 +567,7 @@
             </li>
             <li><a href=""><span class="icon-social-dribbble transparent-text-dark"></span></a>
             </li>
-        </ul>
-        
+        </ul> 
     </footer>
     
     
@@ -576,6 +575,7 @@
      SCRIPTS   
     ============================== -->
     <script src="js/jquery.min.js"></script>
+
     <script>
         /* PRE LOADER */
         jQuery(window).load(function () {
@@ -583,6 +583,12 @@
             jQuery(".status").fadeOut();
             jQuery(".preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+
+    <script>
+        /* TYPE FORM */
+        (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
     </script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -594,6 +600,7 @@
     <script src="js/retina.min.js"></script>
     <script src="js/jquery.simple-text-rotator.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
+
     
     <!-- GOGLE MAP -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
