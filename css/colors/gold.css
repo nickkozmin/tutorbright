@@ -9,38 +9,38 @@
 
 /* THE OVERLAY COLORS WHICH WILL SHOW IN FRONT OF BACKGROUND IMAGES*/
 .overlay-layer {
-	background: rgba(0, 5, 8, 0.75);
+	background: rgba(0, 5, 8, 0);
 }
 
 .overlay-layer-2 {
-	background: rgba(0, 5, 8, 0.90);
+	background: rgba(0, 5, 8, 0.10);
 }
 
 /* NAVBAR AND LINK COLORS */
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-	color: #b29159;
+	color: #FC9742;
 }
 
 a {
-	color: #b29159;
+	color: #FC9742;
 }
 
 a:hover {
-	color: #b29159;
+	color: #3FB0F2;
 }
 
 .border-bottom-hover:hover {
-	border-bottom-color: #b29159;
+	border-bottom-color: #3FB0F2;
 }
 
 .sticky-navigation .main-navigation li a:hover,
 .sticky-navigation .login-register li.login a:hover {
-	color: #b29159;
+	color: #3FB0F2;
 }
 
 .sticky-navigation .main-navigation li.current a {
-	color: #b29159;
+	color: #FC9742;
 }
 
 /* INPUT FIXES */
@@ -48,7 +48,7 @@ a:hover {
 .textarea-box:active,
 .input-box:focus,
 .textarea-box:focus {
-	border-color: #b29159;
+	border-color: #FC9742;
 }
 
 /* CLIENT PHOTO */
@@ -62,19 +62,22 @@ a:hover {
 .navbar-register-button {
 	background: #b29159;
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyNTQ1NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzNiM2IiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a58752), color-stop(100%, #b29159));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FC9742), color-stop(100%, #FC9742));
 	background: -webkit-linear-gradient(top, #a58752 0%, #b29159 100%);
-	background: -webkit-gradient(linear, left top, left bottom, from(#a58752), to(#b29159));
-	background: linear-gradient(to bottom, #a58752 0%, #b29159 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(#a58752), to(#FC9742));
+	background: linear-gradient(to bottom, #FC9742 0%, #FC9742 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@gradient-light', endColorstr='@main-color', GradientType=0);
-	-webkit-box-shadow: 0px 3px 0px #75603b;
-	box-shadow: 0px 3px 0px #75603b;
+	/*-webkit-box-shadow: 0px 3px 0px #FC9742;*/
+	/*box-shadow: 0px 3px 0px #3FB0F2*/;
+	box-shadow: 0 0 20px #fff;
+	border: 2px solid #fff;
+	border-radius: 5px !important;
 }
 
 .standard-button:hover,
 .navbar-register-button:hover {
 	color: #ffffff;
-	background: #b29159 !important;
+	background: #3FB0F2 !important;
 	text-decoration: none;
 }
 
@@ -93,18 +96,18 @@ a:hover {
 
 /* COLORED BACKGROUND AND TEXT*/
 .color-bg {
-	background: #b29159;
+	background: #FC9742;
 }
 
 .colored-text {
-	color: #b29159;
+	color: #FC9742;
 }
 
 /* COLORED BORDERS AND LINES */
 .colored-line-left,
 .colored-line-right,
 .colored-line {
-	background: #b29159;
+	background: #FC9742;
 }
 
 .border-right-colored {

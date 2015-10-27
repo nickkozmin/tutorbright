@@ -413,6 +413,10 @@ strong,
 	background: #ffffff;
 }
 
+.bg-client {
+	background: #FC9742;
+}
+
 .grey-bg {
 	border-top: 1px solid #eaebec;
 	border-bottom: 1px solid #eaebec;
@@ -527,7 +531,7 @@ strong,
 }
 
 .sticky-navigation .navbar-brand img {
-	max-width: 40px;
+	max-width: 100px;
 	-webkit-backface-visibility: hidden;
 }
 
